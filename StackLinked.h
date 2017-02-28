@@ -105,7 +105,7 @@ T* StackLinked<T>::pop()
 	}
 	else
 	{
-		item = top->getItem();;
+		item = top->getItem();
 		NextNode<T>* del = top;
 		top = del->getNext();
 		delete del;
